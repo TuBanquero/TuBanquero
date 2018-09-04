@@ -1,6 +1,7 @@
 'use strict'
 
 const express = require('express');
+var bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 require('dotenv').config();
@@ -8,6 +9,7 @@ require('dotenv').config();
 const port = process.env.PORT;
 app.set('view engine', 'ejs');
 app.set('port', port);
+
 
 app.get('/', function(req, res) {
 	app.use(express.static(path.join(__dirname + '/views')));
