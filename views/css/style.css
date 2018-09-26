@@ -38,6 +38,7 @@
 :: 25.0 Header Subscribe Area CSS 
 :: 26.0 Transparent Menu CSS 
 :: 27.0 Gradient Versone Area CSS 
+:: 28.0 Subscription page
 -------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
@@ -2538,7 +2539,7 @@ p {
 	position: relative;
 }
 
-.row_foot p{
+.row_foot p, .row_foot h6{
     text-align: center;
     padding: 20px 0 0 0;
     margin: 0;
@@ -3312,4 +3313,79 @@ ul.children .comment-content {
 
 .blog_image > img {
     width: 100%;
+}
+
+/* -------------------
+:: 28.0 Subscription page
+------------------ */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+form, html, body{
+    border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    background-color: #f44336;
+    align-content: center;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+}
+
+/* Register button styles */
+.register{
+    background-color: #248232;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Buttons container */
+.buttonscontainer{
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.btn_cont_item {
+    width: 50%;
+    float: left;
+    align-content: center;
+}
+
+form h1{
+    padding: 50px 0 0 0;
 }

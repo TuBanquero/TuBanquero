@@ -464,6 +464,10 @@
     .singl-blog-status-bar span {
         padding: 20px 5px;
     }
+    .btn_cont_item{
+        float: inherit;
+        width: 100%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -509,5 +513,59 @@
     }
     .blog_text > h5 {
         font-size: 24px;
+    }
+    .btn_cont_item{
+        float: inherit;
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .portfolio_gallery_iteam {
+        width: 50%;
+    }
+    .project_title > p {
+        max-width: 230px;
+    }
+    .product-thumbnail-area,
+    .feature-thumbnail-area {
+        height: 450px !important;
+    }
+    .video_area {
+        min-height: 400px;
+    }
+    .welcome-text.account > h2,
+    .welcome-text.video > h2,
+    .content-section-text > h2 {
+        font-size: 40px;
+    }
+
+    .welcome-text.big-text > h2 {
+        font-size: 70px;
+    }
+    .welcome-text.dark > h2 {
+        font-size: 50px;
+    }
+    .welcome-text.cd-intro > h1 {
+        font-size: 46px;
+    }
+    .subscribe--content h2 {
+        font-size: 48px;
+    }
+    .welcome-text.vimeo > h2 {
+        font-size: 60px;
+    }
+    .singl-blog-status-bar span {
+        padding: 20px 10px;
+    }
+    .blog_text {
+        padding: 30px;
+    }
+    .blog_text > h5 {
+        font-size: 24px;
+    }
+    .btn_cont_item{
+        float: inherit;
+        width: 100%;
     }
 }

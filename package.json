@@ -25,6 +25,7 @@
     "eslint": "^5.5.0",
     "express": "^4.16.3",
     "jsdoc": "^3.5.5",
+    "local-links": "^1.4.1",
     "mocha": "^5.2.0",
     "request": "^2.88.0"
   }
