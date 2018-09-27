@@ -21,6 +21,11 @@ app.get('/login', function(req, res) {
 	res.render('pages/login');
 });
 
+app.get('/user', function(req, res) {
+	app.use(express.static(path.join(__dirname + '/views')));
+	res.render('pages/user');
+});
+
 app.listen(port, function() {
 	console.log('Client Listening on port' + port);
 })
