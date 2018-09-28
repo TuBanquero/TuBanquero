@@ -21,6 +21,14 @@
 </head>
 
 <body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+    </div>
     <!-- Left Side Menu -->
     <div class="left-side-menu">
         <div class="left-side-menu-hide-open">
@@ -37,10 +45,10 @@
             <nav>
                 <ul class="navbar-nav ml-auto" id="nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Resumen</a>
+                        <a class="nav-link" href="#cool_numbers">Resumen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Mis bancos</a>
+                        <a class="nav-link" href="#mybanks">Mis bancos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#feature">Pago de servicios</a>
@@ -58,6 +66,18 @@
             </nav>
         </header>
     </div>
+    <div class="left-side-content">
+            <!-- PARTIALS -->
+            <% include ../partials/user/welcome_user.ejs %>
+    
+            <% include ../partials/user/cool_numbers.ejs %>
+    
+            <% include ../partials/user/mybanks.ejs %>
+    
+            <% include ../partials/index/subscribe.ejs %>
+    
+            <% include ../partials/index/footer2.ejs %>
+        </div>
 </body>
 <!-- jQuery-2.2.4 js -->
 <script src="js/jquery/jquery-2.2.4.min.js"></script>
