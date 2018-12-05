@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Inicio de Sesión</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <body>
+            <section class="service-details-area d-lg-flex clearfix">
+                <!-- Video Area -->
+                <div class="video_area wow fadeInLeftBig animated-img bg-overlay1by3 d-flex align-items-center justify-content-center" data-wow-delay="0.5s" style="background-image: url(img/bg-img/video-1.jpg);">
+                    <div class="video-text-icon text-center">
+                        <a href="https://youtu.be/jh61R-BXOgE" class="video_button"><i class="ti-control-play"></i></a>
+                        <p>Watch Business Review</p>
+                    </div>
+                </div>
+            
+                <!-- Content Area -->
+                <div class="content-area section_padding_90_100 wow fadeInRightBig" data-wow-delay="1s">
+                    <div class="content-details wow fadeIn" data-wow-delay="2s">
+                        <!-- Content Section Text Area -->
+                        <div class="content-section-text">
+                            <h2>It is a modern &amp; creative design.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nam enim quas beatae quasi necessitatibus dolores et porro iure numquam, voluptate autem adipisci odit ea maiores natus quos dicta. Corporis id quas repellat distinctio assumenda magni at aspernatur velit dignissimos dolore rerum, qui, quod minus!</p>
+                            <a href="/user" class="btn blink-btn white-btn mt-15">PLACEHOLDER PARA IR A USER</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <form action="/action_page.php" style="border:1px solid #ccc">
+          <div class="container">
+            <h1>Iniciar Sesión</h1>
+            <p>Llena los campos para crear una cuenta.</p>
+            <hr>
+            <label for="email"><b>E-mail</b></label>
+            <input type="text" placeholder="Tu correo va aquí" name="email" required>
+        
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="Algo que no se te olvide" name="psw" required>
+        
+            <label for="psw-repeat"><b>Escribe de nuevo tu contraseña</b></label>
+            <input type="password" placeholder="A ver si la escribiste bien" name="psw-repeat" required>
+            
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recordar mis datos
+            </label>
+            
+            <p>Al crear una cuenta estás de acuerdo con nuestros <a href="#" style="color:dodgerblue">Términos y Condiciones</a>.</p>
+        
+            <div class="clearfix">
+                <div class="buttonscontainer">
+                    <div class="btn_cont_item">
+                            <button type="button" class="cancelbtn btn blink-btn w-100">Cancelar</button>
+                    </div>
+                    <div class="btn_cont_item">
+                        <button type="submit" class="register btn blink-btn w-100">Registrarme</button>
+
+                    </div>
+                    <button type="submit" class="submit btn blink-btn w-100">Ya tengo cuenta</button>
+                </div>
+            </div>
+          </div>
+        </form>
+        <% include partials/footer2.ejs %>
+</body>
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="/js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="/js/plugins/plugins.js"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="/js/map-active.js"></script>
+    <!-- Active js -->
+    <script src="/js/active.js"></script>
+
+</html>

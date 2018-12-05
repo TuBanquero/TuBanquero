@@ -1,16 +1,44 @@
 {
-  "name": "site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "tubanquero",
+  "version": "1.0.0",
+  "description": "TuBanquero WebApp",
+  "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuBanquero/TuBanquero.git"
+  },
+  "author": "Rogelio Ventura <rogeliovr94@gmail.com>; Jose Eduardo Kotasek <josekotasek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuBanquero/TuBanquero/issues"
+  },
+  "homepage": "https://github.com/TuBanquero/TuBanquero#readme",
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "eslint": "^5.5.0",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "jade": "^1.11.0",
+    "jsdoc": "^3.5.5",
+    "kerberos": "^1.1.2",
+    "local-links": "^1.4.1",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.10",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1"
   }
 }
