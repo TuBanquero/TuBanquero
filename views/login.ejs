@@ -42,19 +42,25 @@
                     </div>
                 </div>
             </section>
-        <form action="/action_page.php" style="border:1px solid #ccc">
+        <form action="/adduser" style="border:1px solid #ccc" method="POST">
           <div class="container">
             <h1>Iniciar Sesión</h1>
             <p>Llena los campos para crear una cuenta.</p>
             <hr>
+            <label for="name"><b>Nombre</b></label>
+            <input type="text" placeholder="¿Cuál es tu nombre?" name="name" required>
+
             <label for="email"><b>E-mail</b></label>
             <input type="text" placeholder="Tu correo va aquí" name="email" required>
+
+            <label for="email"><b>Teléfono celular</b></label>
+            <input type="text" placeholder="Número de teléfono" name="phone" required>
         
             <label for="psw"><b>Contraseña</b></label>
-            <input type="password" placeholder="Algo que no se te olvide" name="psw" required>
+            <input type="password" placeholder="Algo que no se te olvide" name="psw">
         
             <label for="psw-repeat"><b>Escribe de nuevo tu contraseña</b></label>
-            <input type="password" placeholder="A ver si la escribiste bien" name="psw-repeat" required>
+            <input type="password" placeholder="A ver si la escribiste bien" name="psw-repeat">
             
             <label>
               <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recordar mis datos
