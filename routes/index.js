@@ -3,7 +3,6 @@ var router = express.Router();
 var mongodb = require('mongodb');
 var url = 'mongodb://localhost:27017/tubanquero';
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'TuBanquero' });
 });
@@ -15,7 +14,6 @@ router.get('/list', function(req,res,){
       console.log('Unable to connect to server', err);
     } else {
       console.log('Connection established');
-      //var collection = db.collection('users');
       var collection = db.db().collection('users');
       collection.find({}).toArray(function(err,result){
         if(err){
@@ -62,5 +60,10 @@ router.get('/login', function(req, res, next) {
 router.get('/user', function(req, res, next) {
   res.render('user', { title: 'Profile' });
 });
+
+router.get('/privacy', function(req, res, next) {
+  res.render('privacy', { title: 'Privacy' });
+});
+
 
 module.exports = router;
