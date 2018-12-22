@@ -45,7 +45,7 @@ router.post('/adduser', function(req,res){
         if(err){
           console.log(err);
         } else {
-          res.redirect('list');
+          res.redirect('index');
         }
         db.close();
       });
